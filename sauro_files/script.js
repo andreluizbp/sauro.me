@@ -17,7 +17,7 @@ $(window).load(function(){
 
 	// double rainbow backup.
 	//var rainbow = [ "#00a081", "#fb8472", "#de3f3f", "#5bb0ec", "#c671fb", "#ec5b9f", "#ecaa5b", "#46bc62" ];
-	var rainbow = [ "#00a081", "#006681", "#f4a82c", "#e64f48", "#a857a7", "#05ade2", "#66bb5b", "#e24152", "#fb8472", "#de3f3f", "#5bb0ec", "#c671fb", "#ec5b9f", "#ecaa5b", "#46bc62" ];
+	var rainbow = [ "#00a081", "#006681", "#a857a7", "#66bb5b", "#e24152", "#fb8472", "#de3f3f", "#5bb0ec"];
 	var colourPicker = rainbow[Math.floor(Math.random() * rainbow.length)];
 	$('a').css('color', colourPicker);
 	$('a:hover').css('color', colourPicker);
