@@ -1,5 +1,7 @@
 $(window).load(function(){
 
+	$('section').css('height', '100%');
+
 	//Loader
 	$('.loader .inner').fadeOut(500, function(){
 		$('.loader').fadeOut(750);
