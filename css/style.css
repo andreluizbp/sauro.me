@@ -317,6 +317,10 @@ a.next {
 }
 
 @media(max-width:30em) {
+	section {
+	    padding: 50px 0;
+	}
+
 	header {
 		position: relative;
 		width: 100%;
@@ -330,7 +334,7 @@ a.next {
 	header .header-content {
 	    position: relative;
 	    width: 100%;
-	    padding: 200px 15px;
+	    padding: 100px 15px;
 	    text-align: center;
 	    left: 0%;
 	}
