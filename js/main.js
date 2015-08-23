@@ -5,6 +5,11 @@ $(window).load(function(){
 		$('.loader').fadeOut(750);
 	});
 
+	$('h1').typed({
+		strings: ["Sauro", "Second sentence."],
+		typeSpeed: 0
+	});
+
 	// double rainbow backup.
 	//var rainbow = [ "#00a081", "#fb8472", "#de3f3f", "#5bb0ec", "#c671fb", "#ec5b9f", "#ecaa5b", "#46bc62" ];
 	var rainbow = [ "#00a081", "#006681", "#a857a7", "#66bb5b", "#e24152", "#fb8472", "#de3f3f", "#5bb0ec"];
