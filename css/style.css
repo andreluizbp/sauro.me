@@ -133,6 +133,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner .cursor {
+	color: #444;
 	font-size:200px;
 	font-size:20rem;
 	line-height:250px;
